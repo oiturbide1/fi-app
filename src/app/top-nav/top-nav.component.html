@@ -1,0 +1,10 @@
+<div style="background-color:lightblue">
+  <button mat-button [matMenuTriggerFor]="menu">Securities</button>
+    <mat-menu #menu="matMenu" yPosition="below">
+      <button mat-menu-item routerLink="/stocks"
+        routerLinkActive="active">Stocks</button>
+      <button mat-menu-item>Bonds</button>
+    </mat-menu>
+  <button mat-button>About</button>
+  <button mat-button>Contact</button>
+</div>
