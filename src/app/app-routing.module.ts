@@ -8,6 +8,10 @@ const appRoutes: Routes = [
   { path: 'stocks',
     component: StockListComponent,
     data: { title: 'Stocks'}
+  },
+  { path: '',
+    component: HomeComponent,
+    data: { title: 'Home' }
   }
 ];
 
